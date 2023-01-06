@@ -55,6 +55,7 @@
   font-size: 20px;
   line-height: 23px;
   color: #ffffff;
+  cursor: pointer;
 }
 /* //////banner part end////// */
 
@@ -183,5 +184,94 @@
   text-align: center;
   color: #f15b22;
   margin-top: 24px;
+  cursor: pointer;
 }
 /* //////call part end////// */
+
+/* //////count part start////// */
+
+/* //////count part end////// */
+
+/* //////footer part start////// */
+footer {
+  background: #151414;
+  color: #ffffff;
+  padding: 80px 0px;
+}
+footer .container {
+  display: flex;
+}
+footer .left-part {
+  margin-left: 80px;
+}
+footer .left-part .text-part h1 {
+  font-family: "Work Sans";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 45px;
+  line-height: 53px;
+}
+footer .left-part .text-part p {
+  font-family: "Work Sans";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 26px;
+  color: #ffffff;
+  width: 485px;
+  margin-top: 16px;
+}
+footer .left-part .icon-part {
+  display: flex;
+  margin-top: 32px;
+}
+footer .left-part .icon-part .fb {
+  margin-right: 18px;
+}
+footer .left-part .icon-part .twitter {
+  margin-right: 18px;
+}
+footer .left-part h3 {
+  font-family: "Work Sans";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 25px;
+  line-height: 29px;
+}
+footer .right-part {
+  margin-left: 180px;
+}
+footer .right-part h3 {
+  font-family: "Work Sans";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 25px;
+  line-height: 29px;
+}
+footer .right-part .input {
+  width: 325px;
+  border: 1px solid #ffffff;
+  border-radius: 8px;
+  font-family: "Work Sans";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 21px;
+  background: #151414;
+  margin-top: 32px;
+  padding: 22px 15px;
+}
+footer .right-part button {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 24px;
+  color: #f15b22;
+  margin-top: 18px;
+  width: 170.11px;
+  height: 64px;
+  border-radius: 8px;
+  cursor: pointer;
+}
+/* //////footer part end////// */
