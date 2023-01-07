@@ -7,6 +7,61 @@
   margin: 0 auto;
 }
 
+/* //////header part start////// */
+nav .nav-item {
+  width: 80%;
+  float: left;
+}
+
+nav .nav-item ul {
+  text-align: center;
+}
+
+nav .nav-item ul li {
+  display: inline-block;
+  margin-left: 30px;
+  font-family: "Work Sans";
+  font-size: 16px;
+  font-weight: 400;
+  background: transparent;
+  padding: 30px 10px;
+  
+}
+
+nav .nav-item ul li a {
+  color: #000;
+  text-decoration: none;
+}
+
+nav .nav-item ul li a:hover {
+  color: #ee7002;
+}
+
+
+nav .icon {
+  width: 10%;
+  float: left;
+  margin-top: 25px;
+}
+
+nav .icon i {
+  width: 30px;
+  height: 30px;
+  border: 2px solid rgb(236, 135, 4);
+  border-radius: 50%;
+  text-align: center;
+  line-height: 30px;
+  margin-right: 15px;
+}
+
+nav .icon i:hover {
+  background: #0f2f44;
+  color: #ffc712;
+  border-color: #0f2f44;
+  cursor: pointer;
+}
+/* //////header part end////// */
+
 /* //////banner part start////// */
 #banner-part {
   background-image: url(../images/banner/banner2.png);
@@ -260,6 +315,7 @@ footer .right-part .input {
   background: #151414;
   margin-top: 32px;
   padding: 22px 15px;
+  color: #ffffff;
 }
 footer .right-part button {
   font-family: "Inter";
